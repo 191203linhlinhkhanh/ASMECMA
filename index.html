@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiki</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./Assets/favicon/favicon-32x32.png" />
+
+    <!-- Custom css, bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="bg-info">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logo" src="./Assets/images/tiki.png" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold text-dark" aria-current="page" href="#">English
+                                    Books</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold text-dark" aria-current="page" href="#">Sách Tiếng
+                                    Việt</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold text-dark" aria-current="page" href="#">Văn Phòng
+                                    Phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active fw-bold text-dark" aria-current="page" href="#">Phòng Lưu
+                                    Niệm</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button type="button" class="btn btn-success">Search</button>
+                        </form>
+                        <div class="badge text-wrap ms-3">
+                            <button type="button" class="btn btn-light"><i class="fa-solid fa-user"></i> Đăng Nhập/Đăng
+                                Kí</button>
+                            <button type="button" class="btn btn-light ms-3"><i class="fa-solid fa-cart-shopping"></i>
+                                Giỏ
+                                hàng</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="banner container pt-3">
+            <h4 class="text-capitalize text-bold">Nhà Sách Tiki</h4>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Assets/images/banner2.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/images/banner2.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Assets/images/banner2.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="list-menu mt-4">
+            <ul class="d-flex list-menu-item">
+                <li class="fw-bold fs-5 list-item me-5">Phổ biến</li>
+                <li class="fw-bold fs-5 list-item me-5">Bán chạy</li>
+                <li class="fw-bold fs-5 list-item me-5">Hàng mới</li>
+                <li class="fw-bold fs-5 list-item me-5">Giá thấp</li>
+                <li class="fw-bold fs-5 list-item me-5">Giá cao</li>
+            </ul>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 g-5" id="card-container">
+            <div class="card">
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="container footer bg-info mt-5">
+        <div class="row row-cols-2 row-cols-md-4 g-5">
+            <div class="col">
+                <div class="info">
+                    <h4>Thông tin</h4>
+                    <p><a href="">Về chúng tôi</a></p>
+                    <p><a href="">Liên hệ với chúng tôi</a></p>
+                    <p><a href="">Điều khoản & Điều kiện</a></p>
+                    <p><a href="">Hướng dẫn vận chuyển</a></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class=" info">
+                    <h4>Liên hệ hữu ích</h4>
+                    <p><a href="">Cửa hàng trực tuyến</a></p>
+                    <p><a href="">Liên hệ với chúng tôi</a></p>
+                    <p><a href="">Dịch vụ khách hàng</a></p>
+                    <p><a href="">Khuyến mãi</a></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class=" info">
+                    <h4>Điều khoản dịch vụ</h4>
+                    <p><a href="">Về chúng tôi</a></p>
+                    <p><a href="">Liên hệ với chúng tôi</a></p>
+                    <p><a href="">Điều khoản & Điều kiện</a></p>
+                    <p><a href="">Hướng dẫn vận chuyển</a></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class=" info">
+                    <h4>Khuyến mại cực hấp dẫn</h4>
+                    <p><a href="">Cửa hàng trực tuyến</a></p>
+                    <p><a href="">Liên hệ với chúng tôi</a></p>
+                    <p><a href="">Dịch vụ khách hàng</a></p>
+                    <p><a href="">Tell: 0398799999</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="./Assets/js/app.js"></script>
+
+</html>

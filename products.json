@@ -1,0 +1,112 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title"
+    },
+    {
+      "id": "2",
+      "title": "another title"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Liệu IT đã hết thời?",
+      "price": "90.000",
+      "quantity": 10,
+      "image": "https://thuviensach.vn/img/news/2022/10/larger/1259-lieu-it-da-het-thoi-1.jpg?v=2683",
+      "description": "Công nghệ thông tin (IT) đã làm thay đổi cách thức các công ty thực hiện nhiều hoạt động quan trọng, nhưng nó vẫn chưa",
+      "category": "2"
+    },
+    {
+      "id": "2",
+      "name": "Liệu IT đã hết thời?",
+      "price": "30.000",
+      "quantity": 60,
+      "image": "https://thuviensach.vn/img/news/2022/10/larger/1259-lieu-it-da-het-thoi-1.jpg?v=2683",
+      "description": "Công nghệ thông tin (IT) đã làm thay đổi cách thức các công ty thực hiện nhiều hoạt động quan trọng, nhưng nó vẫn chưa",
+      "category": "2"
+    },
+    {
+      "id": "3",
+      "name": "Liệu IT đã hết thời?",
+      "price": "60.000",
+      "quantity": 40,
+      "image": "https://thuviensach.vn/img/news/2022/10/larger/1259-lieu-it-da-het-thoi-1.jpg?v=2683",
+      "description": "Công nghệ thông tin (IT) đã làm thay đổi cách thức các công ty thực hiện nhiều hoạt động quan trọng, nhưng nó vẫn chưa",
+      "category": "2"
+    },
+    {
+      "id": "4",
+      "name": "Liệu IT đã hết thời?",
+      "price": "60.000",
+      "quantity": 40,
+      "image": "https://thuviensach.vn/img/news/2022/10/larger/1259-lieu-it-da-het-thoi-1.jpg?v=2683",
+      "description": "Công nghệ thông tin (IT) đã làm thay đổi cách thức các công ty thực hiện nhiều hoạt động quan trọng, nhưng nó vẫn chưa",
+      "category": "2"
+    },
+    {
+      "id": "5",
+      "name": "Liệu IT đã hết thời?",
+      "price": "60.000",
+      "quantity": 40,
+      "image": "https://thuviensach.vn/img/news/2022/10/larger/1259-lieu-it-da-het-thoi-1.jpg?v=2683",
+      "description": "Công nghệ thông tin (IT) đã làm thay đổi cách thức các công ty thực hiện nhiều hoạt động quan trọng, nhưng nó vẫn chưa",
+      "category": "2"
+    },
+    {
+      "id": "6",
+      "name": "Liệu IT đã hết thời?",
+      "price": "60.000",
+      "quantity": 40,
+      "image": "https://thuviensach.vn/img/news/2022/10/larger/1259-lieu-it-da-het-thoi-1.jpg?v=2683",
+      "description": "Công nghệ thông tin (IT) đã làm thay đổi cách thức các công ty thực hiện nhiều hoạt động quan trọng, nhưng nó vẫn chưa",
+      "category": "2"
+    }, 
+    {
+      "id": "7",
+      "name": "Liệu IT đã hết thời?",
+      "price": "60.000",
+      "quantity": 40,
+      "image": "https://thuviensach.vn/img/news/2022/10/larger/1259-lieu-it-da-het-thoi-1.jpg?v=2683",
+      "description": "Công nghệ thông tin (IT) đã làm thay đổi cách thức các công ty thực hiện nhiều hoạt động quan trọng, nhưng nó vẫn chưa",
+      "category": "2"
+    },
+    {
+      "id": "8",
+      "name": "Liệu IT đã hết thời?",
+      "price": "60.000",
+      "quantity": 40,
+      "image": "https://thuviensach.vn/img/news/2022/10/larger/1259-lieu-it-da-het-thoi-1.jpg?v=2683",
+      "description": "Công nghệ thông tin (IT) đã làm thay đổi cách thức các công ty thực hiện nhiều hoạt động quan trọng, nhưng nó vẫn chưa",
+      "category": "2"
+    }
+  ],
+  "categorys": [
+    {
+      "id": "1",
+      "name": "Quần áo"
+    },
+    {
+      "id": "2",
+      "name": "Giày dép"
+    },
+    {
+      "id": "3",
+      "name": "Phụ kiện"
+    }
+  ]
+}
